@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.image-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.image-cont img {
+  width: 36%;
+}
+
+.text-cont h2 {
+  text-align: center;
+  font-size: 34px;
+  padding-top: 15px;
+}
+
+.text-cont p {
+  padding-top: 12px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.home-btn {
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  padding: 10px;
+  margin-top: 25px;
+  margin-left: 45%;
+}
+
+.home-btn:hover {
+  text-decoration: underline;
+}
